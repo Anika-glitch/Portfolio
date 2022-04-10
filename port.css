@@ -189,7 +189,7 @@ text-align: center;
   .flex-container>div{
     display: flex;
     margin-left: 0em;
-   width: 180px;
+   width: 120px;
    margin: 20px;
    padding: 1%;
    background-color: white;
