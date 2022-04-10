@@ -175,7 +175,10 @@ text-align: center;
       }    
     
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
+  h5{
+ background-color: white;
+  }
   .flex-container {
     display: flex;
    width: 100%;
@@ -189,7 +192,7 @@ text-align: center;
   .flex-container>div{
     display: flex;
     margin-left: 0em;
-   width: 120px;
+   width: 150px;
    margin: 20px;
    padding: 1%;
    background-color: white;

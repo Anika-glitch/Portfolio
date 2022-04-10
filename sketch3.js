@@ -20,8 +20,19 @@ function windowResized(){
     let i=1;
   
   
-    
-    
+    if(windowWidth<600){
+      for(let i=1;i<3;i++){
+      
+        noFill();
+         stroke(153, 204, 255);
+        torus(sin(i),(i*50),4);
+        
+          rotateX(frameCount/1000);
+          rotateY(frameCount/1000);
+        
+       }
+      }
+    else{
     for(let i=1;i<3;i++){
       
      noFill();
@@ -32,5 +43,7 @@ function windowResized(){
        rotateY(frameCount/1000);
      
     }
+  }
+  
   
   }
