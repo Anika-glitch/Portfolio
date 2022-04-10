@@ -1,0 +1,282 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: LoRes-12, sans-serif;
+
+    font-weight: 700;
+    padding:0px;
+    font-style: normal;
+    color: darkgreen;
+    margin-bottom: 0%;
+    font-size: larger;
+    margin-top: 2px;
+  
+  
+}
+
+h2{
+   
+   font-weight: lighter;
+    color: teal ;
+    margin-top: 0%;
+    font-size: smaller;
+  text-align: left;
+    font-family: hero-new, sans-serif;
+     font-weight: 200;
+     font-style: normal;
+    padding: 2%;
+
+}
+h3{
+   text-align: left;
+   padding: 3%;
+    font-weight: bold;
+     color:white ;
+font-family: LoRes-12, sans-serif;
+      font-weight: 700;
+  font-style: bold;
+ 
+ }
+ h4{
+    text-align: left;
+    margin-left: 3%;
+    padding: 1%;
+
+     font-weight: bold;
+      color: teal;
+
+   
+      font-size: 700;
+     border: solid;
+     border-color: darkgreen;
+      font-family: hero-new, sans-serif;
+  font-style: bold;
+  
+  }
+  h6{
+    text-align: left;
+    margin-left: 3%;
+    padding: 1%;
+
+     font-weight: bold;
+      color: lightseagreen;
+
+   
+      font-size: large;
+     border: solid;
+     border-color: lightgreen;
+      font-family: LoRes-12, sans-serif;
+  font-style: bold;
+  
+  }
+  h5{
+    text-align: left;
+    margin-left: 3%;
+    padding: 1%;
+    margin-top: 0px;
+
+     font-weight: bold;
+      color: teal;
+
+   
+      font-size: large;
+     border: solid;
+     border-color: darkgreen;
+      font-family: LoRes-12, sans-serif;
+  font-style: bold;
+  
+  }
+  .iconify{
+font-size: x-large;
+color: black;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .flex>.flex-container3{
+    width: 50%;
+  }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    padding-left: 10px;
+    
+   
+  }
+  .flex-container > div {
+
+    width: 18%;
+    margin: 2%;
+    padding: 2%;
+  padding-left: 10px;
+    text-align: center;
+    border-right: solid;
+    border-width: 1px;
+    border-color: teal;
+    align-items: right;
+    
+
+  }
+  .flex-container1 {
+    display: flex;
+   width: 100%;
+   flex-direction: row;
+
+   padding-top: 0px;
+   align-items: center;
+  }
+  .flex-container1>div{
+    width: 50%;
+  }
+  .big-flex{
+
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+  
+  .flex-container2 {
+    display: flex;
+   width: 100%;
+   flex-direction: row;
+  margin-left: 100px;
+   padding-top: 0px;
+   align-items: center;
+    
+   
+  }
+  .flex-container2>div{
+    width: 45%;
+  }
+  .flex-container3 {
+    display: flex;
+   width: 100%;
+   flex-direction: row;
+
+   padding-top: 0px;
+   align-items: center;
+    
+   
+  }
+  
+.flex-container3>.image{
+    width: 100%;
+  
+    margin-right: 0%;
+}
+
+  .flex-container3>.text{
+    width: 20%;
+      padding: 0px;
+      margin: 0px;
+  }
+ 
+  a{
+      text-decoration: none;
+  }
+
+@media screen and (max-width: 600px) {
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    padding-left: 10px;
+    
+   
+  }
+  .flex-container > div {
+
+    width: 100%;
+    margin: 2%;
+    padding: 2%;
+  padding-left: 10px;
+    text-align: center;
+    border-bottom: solid;
+    border-width: 1px;
+  
+    border-color: teal;
+    align-items: right;
+    
+
+  }
+  .flex-container2 {
+    display: flex;
+   width: 100%;
+   flex-direction: column;
+  margin-left: 100px;
+   padding-top: 0px;
+   align-items: center;
+    
+   
+  }
+  .flex-container2>div{
+    width: 100%;
+  }
+  .flex-container1 {
+    display: flex;
+   width: 100%;
+   flex-direction: column;
+
+   padding-top: 0px;
+   align-items: center;
+  }
+  .flex-container1>div{
+    width: 100%;
+  }
+  .flex {
+    display: flex;
+   width: 100%;
+   flex-direction: column;
+
+   padding-top: 0px;
+   align-items: center;
+  }
+  .flex>div{
+    width: 100%;
+  }
+  .flex-container3 {
+    display: flex;
+   width: 100%;
+   flex-direction: column;
+
+   align-items: center;
+  }
+  .flex-container3>.text{
+    width: 100%;
+  }
+ 
+  .flex-container3>.image{
+    width: 200%;
+
+  }
+    h2{
+        font-size: smaller;
+    }
+
+
+}

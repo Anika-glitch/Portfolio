@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+h1{
+    font-family: LoRes-12, sans-serif;
+
+    font-weight: 700;
+    
+    font-style: normal;
+    color: skyblue;
+    margin-bottom: 0%;
+    font-size: larger;
+    padding: 0px;
+    margin-top: 0px;
+  text-align: center;
+    background-color: white;
+}
+
+
+.block{
+  text-align: right;
+}
+
+h2{
+   
+   font-weight: lighter;
+    color: gray ;
+    margin-top: 0%;
+    padding: 0px;
+    font-size: smaller;
+    background-color: white;
+    font-family: hero-new, sans-serif;
+
+    font-weight: 200;
+    
+    font-style: normal;
+text-align: center;
+}
+h3{
+
+  
+    font-weight: medium;
+     color: darkblue ;
+  
+     font-size: medium;
+     font-family: LoRes-12, sans-serif;
+     font-size: larger;
+
+     font-weight: 400;
+  
+ 
+
+ 
+ }
+ h5{
+
+  
+  font-weight: medium;
+   color: darkblue ;
+
+   font-size: small;
+   font-family: hero-new, sans-serif;
+ 
+text-align: center;
+   font-weight: 400;
+   padding: 0%;
+
+
+
+
+}
+ h4{
+    text-align: right;
+    padding: 3%;
+     font-weight: bold;
+      color: lightslategray ;
+   
+      font-size: 300;
+      background-color: white;
+      font-family: arbotek, sans-serif;
+  font-style: bold;
+  
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 12px;
+
+
+  }
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    
+   
+  }
+  .flex-container1 {
+    display: flex;
+   width: 100%;
+  
+   
+  }
+  .flex-container1>div{
+    display: flex;
+   width: 50%;
+   flex-direction: row;
+    
+   
+  }
+  
+  .flex-container > div {
+
+    width: 250px;
+    margin: 1%;
+    
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.7);
+    
+
+    
+
+  }
+  .flex-container  :hover {
+
+    background-color: white;
+    
+
+    
+
+  }
+  a{
+      text-decoration: none;
+  }
+
+@media screen and (max-width: 1000px) {
+
+ 
+.navbar{
+  margin-bottom: 0px;;
+}
+      .flex-container {
+        display: flex;
+       width: 100%;
+       margin-top: 0px;
+       margin-left: 0em; margin-left: 0em;
+       background-image: url("background-grid3Artboard\ 1.jpg");
+       background-size: 40%;
+     
+       
+      }
+      .flex-container>div{
+        display: flex;
+        margin-left: 0em;
+       width: 180px;
+       margin: 20px;
+       padding: 1%;
+       background-color: white;
+    
+      }
+      h1  :hover {
+        color:gray;
+
+ 
+      }    
+    
+}
+@media screen and (max-width: 400px) {
+  .flex-container {
+    display: flex;
+   width: 100%;
+   margin-top: 0px;
+   margin-left: 0em; margin-left: 0em;
+   background-image: url("bakcground-grid2Artboard\ 1.jpg");
+  
+ 
+   
+  }
+  .flex-container>div{
+    display: flex;
+    margin-left: 0em;
+   width: 180px;
+   margin: 20px;
+   padding: 1%;
+   background-color: white;
+
+  }
+
+}
