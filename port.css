@@ -114,6 +114,7 @@ text-align: center;
   .flex-container1>div{
     display: flex;
    width: 50%;
+  
    flex-direction: row;
     
    
@@ -123,7 +124,6 @@ text-align: center;
 
     width: 250px;
     margin: 1%;
-    
     padding: 20px;
     text-align: center;
     background-color: rgba(255,255,255,0.7);
@@ -143,39 +143,96 @@ text-align: center;
   a{
       text-decoration: none;
   }
-
-@media screen and (max-width: 1000px) {
+  @media screen and (max-width:1200px) {
 
  
-.navbar{
-  margin-bottom: 0px;;
-}
-      .flex-container {
-        display: flex;
-       width: 100%;
-       margin-top: 0px;
-       margin-left: 0em; margin-left: 0em;
-       background-image: url("background-grid3Artboard\ 1.jpg");
-       background-size: 40%;
+    .navbar{
+      margin-bottom: 0px;;
+    }
+          
+          .flex-container>div{
+            display: flex;
+            margin-left: 0em;
+           width: 180px;
+           margin: 6px;
+      
+           background-color: white;
+        
+          }
+          h1  :hover {
+            color:gray;
+    
      
-       
-      }
-      .flex-container>div{
-        display: flex;
-        margin-left: 0em;
-       width: 180px;
-       margin: 20px;
-       padding: 1%;
-       background-color: white;
-    
-      }
-      h1  :hover {
-        color:gray;
+          }    
+        
+    }
+
+  @media screen and (max-width:1000px) {
 
  
-      }    
+    .navbar{
+      margin-bottom: 0px;;
+    }
+          .flex-container {
+            display: flex;
+           width: 100%;
+           margin-top: 0px;
+           margin-left: 0em; margin-left: 0em;
+           background-image: url("background-grid3Artboard\ 1.jpg");
+           background-size: 40%;
+         
+           
+          }
+          .flex-container>div{
+            display: flex;
+            margin-left: 0em;
+           width: 200px;
+           margin: 10px;
+      
+           background-color: white;
+        
+          }
+          h1  :hover {
+            color:gray;
     
-}
+     
+          }    
+        
+    }
+  @media screen and (max-width:768px) {
+
+ 
+    .navbar{
+      margin-bottom: 0px;;
+    }
+          .flex-container {
+            display: flex;
+           width: 100%;
+           margin-top: 0px;
+           margin-left: 0em; margin-left: 0em;
+           background-image: url("background-grid3Artboard\ 1.jpg");
+           background-size: 40%;
+         
+           
+          }
+          .flex-container>div{
+            display: flex;
+            margin-left: 0em;
+           width: 180px;
+           margin: 10px;
+           
+           background-color: white;
+        
+          }
+          h1  :hover {
+            color:gray;
+    
+     
+          }    
+        
+    }
+
+
 @media screen and (max-width: 600px) {
 h5{
   background-color: rgba(255,255,255,0.9);
@@ -193,8 +250,8 @@ h5{
   .flex-container>div{
     display: flex;
     margin-left: 0em;
-   width: 150px;
-   margin: 20px;
+   width: 200px;
+   margin: 10px;
    padding: 1%;
    background-color: white;
 
